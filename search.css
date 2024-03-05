@@ -1,0 +1,59 @@
+/* Styles for header */
+header {
+    background-color: #1381d6; /* Dark gray header background color */
+    color: #afb8b9; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Styles for main content */
+main {
+    max-width: 800px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background color for main content */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Styles for form */
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styles for input */
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Styles for button */
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+/* Styles for search results div */
+#searchResults {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
